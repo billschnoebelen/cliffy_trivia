@@ -80,7 +80,16 @@ function App() {
     <>
       <form className="header" onSubmit={handleSubmit}>
         <div className="instructions">
-          <h3>Instructions:</h3>{" "}
+          <h2>
+            Cliffy Trivia{" "}
+            <img
+              src="/android-chrome-192x192.png"
+              alt="Cliffy Pic"
+              width="50px"
+            />
+          </h2>
+
+          <h3>Instructions:</h3>
           <ul>
             <li>1. Click on cards to see answers. </li>{" "}
             <li>
